@@ -1,0 +1,43 @@
+h1
+{
+    color: black;
+    background-color: rgb(42, 81, 238);
+    background-color: rgba(42, 81, 238, 0.9);
+    font-size: 2em;
+    text-align: center;
+    font-family: georgia, arial, "times new roman", sans-serif;
+}
+
+h2
+{
+    color: blue;
+    font-size: 1.3em;
+    text-align: left;
+    font-family: georgia, arial, "times new roman", sans-serif;
+}
+
+p
+{
+	color: black;
+	font-size: 1em;
+	text-align: justify;
+	font-family: georgia, arial, "times new roman", sans-serif;
+}
+
+a
+{
+    color: blue;
+    font-style: italic;
+    font-family: georgia, arial, "times new roman", sans-serif;
+}
+
+em
+{
+	font-style: normal;
+	text-decoration: underline;
+}
+
+.image_univ_labo
+{
+	text-align: center;
+}
