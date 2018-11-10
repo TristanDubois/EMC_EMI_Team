@@ -1,43 +1,41 @@
-h1
-{
+h1,
+h2,
+p,
+a,
+em {
+    font-family: georgia, arial, "times new roman", sans-serif;
+}
+
+h1 {
     color: black;
     background-color: rgb(42, 81, 238);
     background-color: rgba(42, 81, 238, 0.9);
     font-size: 2em;
     text-align: center;
-    font-family: georgia, arial, "times new roman", sans-serif;
 }
 
-h2
-{
+h2 {
     color: blue;
     font-size: 1.3em;
     text-align: left;
-    font-family: georgia, arial, "times new roman", sans-serif;
 }
 
-p
-{
+p {
 	color: black;
 	font-size: 1em;
 	text-align: justify;
-	font-family: georgia, arial, "times new roman", sans-serif;
 }
 
-a
-{
+a {
     color: blue;
     font-style: italic;
-    font-family: georgia, arial, "times new roman", sans-serif;
 }
 
-em
-{
+em {
 	font-style: normal;
 	text-decoration: underline;
 }
 
-.image_univ_labo
-{
+.image-univ-labo {
 	text-align: center;
 }
