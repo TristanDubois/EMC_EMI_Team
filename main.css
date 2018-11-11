@@ -1,16 +1,41 @@
+body {
+    margin: 0;
+}
+
 h1,
 h2,
+h3,
+h4,
 p,
 a,
 em {
-    font-family: georgia, arial, "times new roman", sans-serif;
+    font-family: 'robotoregular', sans-serif;
 }
 
-h1 {
-    color: black;
-    background-color: rgb(42, 81, 238);
-    background-color: rgba(42, 81, 238, 0.9);
-    font-size: 2em;
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+header .logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+header .logos img {
+    width: 175px;
+    height: 100%;
+}
+
+.sub-main-title {
+    margin: 0;
+    padding: 15px 0;
+    color: white;
+    background-color: #555;
+    font-size: 1.3em;
+    font-weight: lighter;
     text-align: center;
 }
 
@@ -35,11 +60,3 @@ em {
 	font-style: normal;
 	text-decoration: underline;
 }
-
-.image-univ-labo {
-	text-align: center;
-}
-
-.image-univ-labo img {
-    width: 33.33%;
-} 
