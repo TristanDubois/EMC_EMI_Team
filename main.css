@@ -39,3 +39,7 @@ em {
 .image-univ-labo {
 	text-align: center;
 }
+
+.image-univ-labo img {
+    width: 33.33%;
+} 
