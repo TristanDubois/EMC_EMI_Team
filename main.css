@@ -17,15 +17,24 @@ header {
     flex-direction: column;
 }
 
-header .logos {
+header .top-bar {
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 0.2rem 0.2rem rgba(50, 50, 50, .2);
 }
 
-header .logos img {
-    width: 175px;
+header .top-bar img {
+    width: auto;
+    height: 100%;
+    margin: 0 10px; 
+}
+
+header .top-bar a {
     height: 100%;
 }
 
@@ -37,6 +46,7 @@ header .logos img {
     font-size: 1.3em;
     font-weight: lighter;
     text-align: center;
+    margin-top: 70px;
 }
 
 h2 {
